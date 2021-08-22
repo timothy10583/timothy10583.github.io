@@ -19,11 +19,13 @@
     right:0%;
     height:230px;
     box-shadow: black 6px 6px 4px;
+    background-repeat: repeat;
 }
 
 body{
     background-color: black;
     background-image: url(../images/tile/tile5.png);
+    background-repeat: repeat;
 }
 
 .fourofour h1{

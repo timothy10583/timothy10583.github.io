@@ -1,0 +1,17 @@
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: blanchedalmond;
+    color: initial;
+}
+
+.box{
+    border: blue;
+    border-width: 5px;
+    border-style: solid;
+    padding: 10px;
+    width: 300px;
+    cursor: pointer;
+}
