@@ -32,17 +32,17 @@ h1{
     overflow-y: scroll;
     scrollbar-color: red;
     scrollbar-width: 10px;
-    transform:skew(40deg, 0deg);
+    /* transform:skew(40deg, 0deg); */
 }
 
 .Socials img{
     height: 100px;
     cursor: pointer;
-    transform: skew(-40deg, 0deg);
+    /* transform: skew(-40deg, 0deg); */
 }
 
 .Socials p, .Socials h3{
-    transform: skew(-40deg, 0deg);
+    /* transform: skew(-40deg, 0deg); */
 }
 
 body button{

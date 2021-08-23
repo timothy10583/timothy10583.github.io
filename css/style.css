@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
 body{
-    background-image: url("../images/tile/tile3.png");
+    background-image: url("../images/tile/tile7.png");
     }
 
 p{
@@ -31,20 +31,66 @@ p{
     border-radius: 40px;
     background: rgba(245, 245, 245, 0.6);
     padding: 20px;
+    position: relative
 }
 
 .info h1{
     opacity: 1;
-    color: #3B7AB3;
+    color: #ff9933;
     font-family: overpass;
     text-shadow: black 1px 1px 2px;
     
 }
 
 .edgepadding{
-    padding:60px;
+    padding-left:160px;
+    padding-right: 160px;
+    padding-top: 20px;
 }
 
 .info p{
-    color: #6196C5;
+    color: #a4580d;
+    text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
+}
+
+.info li{
+    color: #a4580d;
+    text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
+    font-family: overpass;
+    padding-top: 11px;
+}
+
+a:link{
+    color:red;
+}
+
+a:selected{
+    color:greenyellow
+}
+
+a:visited{
+    color:orange
+}
+
+.microwavescary a{
+    bottom: 0.5%;
+    right: 0.25%;
+    position:absolute;
+    transition: all 0.2s ease-in-out;
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-color: rgba(245, 245, 245, 0.0);
+}
+
+.microwavescary a:hover{
+    background-color: rgba(245, 245, 245, 0.2);
+}
+
+.info img{
+    border-radius: 50px;
+    box-shadow: black 2px 2px 3px;
+    position: absolute;
+    right:10px;
+    top:10px;
 }
