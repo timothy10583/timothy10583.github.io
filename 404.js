@@ -5,6 +5,11 @@ var coolString = [
     'i think you\'re in an invalid page',
     '405',
     'what',
+    'when did this get here',
+    'oopsy',
+    'if you get this message you get 13mil dollars!!',
+    'dog',
+    'timothy10583 moment',
 ]
 var randomNumber = Math.floor(Math.random()*coolString.length);
 document.getElementById("string").innerHTML = coolString[randomNumber]
@@ -13,7 +18,6 @@ var uncoolString = [
     'Invalid Link',
     '404',
     'Not Found',
-    'NULL',
     'Unknown',
     'Where are we?',
 ]

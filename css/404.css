@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
 .fourofour{
-    border: 5px solid rgba(245, 245, 245, 0.5);
+    border: 5px solid rgba(210, 210, 210, 1.0);
     border-radius: 40px;
     background: rgba(245, 245, 245, 0.6);
     padding: 20px;
@@ -44,5 +44,5 @@ body{
 
 .funnybutton{
     color:blue;
-    border-radius: 10px;
+    border-radius: 0px;
 }

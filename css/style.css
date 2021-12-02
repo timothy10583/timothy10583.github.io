@@ -60,6 +60,18 @@ p{
     padding-top: 11px;
 }
 
+.info2 p{
+    color: #000000;
+    text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
+}
+
+.info2 li{
+    color: #ff000d;
+    text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 1px;
+    font-family: overpass;
+    padding-top: 11px;
+}
+
 a:link{
     color:red;
 }
@@ -88,9 +100,13 @@ a:visited{
 }
 
 .info img{
-    border-radius: 50px;
+    border-radius: 40px;
     box-shadow: black 2px 2px 3px;
     position: absolute;
     right:10px;
     top:10px;
+}
+
+.tw{
+    width: 600;
 }
