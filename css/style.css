@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
-body{
+/* body{
     background-image: url("../images/tile/tile7.png");
-    }
+    } */
 
-p{
+/* p{
     font-family: overpass;
-}
+} */
 
 .center{
     display: block;
@@ -34,7 +34,23 @@ p{
     position: relative
 }
 
+.info2{
+    border: 5px solid rgba(245, 245, 245, 0.8);
+    border-radius: 40px;
+    background: rgba(245, 245, 245, 0.6);
+    padding: 20px;
+    position: relative
+}
+
 .info h1{
+    opacity: 1;
+    color: #ff9933;
+    font-family: overpass;
+    text-shadow: black 1px 1px 2px;
+    
+}
+
+.info2 h1{
     opacity: 1;
     color: #ff9933;
     font-family: overpass;

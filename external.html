@@ -2,10 +2,33 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/external.css">
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+            />
+            <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+            <!-- or -->
+            <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css"
+            />
+            <script src="https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.min.js">
+                new SimpleBar(document.getElementById('monger'));
+            </script>
+            <noscript>
+                <style>
+                  /**
+                  * Reinstate scrolling for non-JS clients
+                  */
+                  .simplebar-content-wrapper {
+                    overflow: auto;
+                  }
+                </style>
+            </noscript>
     </head>
     <body>
         <h1>My Socials</h1>
-            <div class="Socials">
+            <div id="monger" class="Socials">
                 <p style="font-size: 16px;">click on an icon to take you there</p>
                 <p style="font-size: 14px;">also, the further you scroll the dumber they get</p>
                 <br>
